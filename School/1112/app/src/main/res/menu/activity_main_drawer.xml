@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_money"
+            android:icon="@drawable/access"
+            android:title="定存" />
+        <item
+            android:id="@+id/nav_money2"
+            android:icon="@drawable/atm"
+            android:title="外匯" />
+        <item
+            android:id="@+id/nav_money3"
+            android:icon="@drawable/access2"
+            android:title="儲蓄險" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/change_control_plan"
+                android:title="目前匯率(賣價)" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/coin_dollar"
+                android:title="預算設定" />
+        </menu>
+    </item>
+
+</menu>

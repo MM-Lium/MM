@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgicon"
+    android:orientation="vertical"
+    tools:context=".money3_edit">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button3"
+            android:ems="15"
+            android:gravity="center"
+            android:text="建立時間"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/edit_time"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#DDAB8D"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:text="儲蓄險名稱"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_title"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="請輸入標題"
+            android:textSize="15sp"></EditText>
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:text="幣值"
+            android:textSize="15sp"></TextView>
+
+        <EditText
+            android:id="@+id/Currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="number"
+            android:textSize="15sp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:text="匯率"
+            android:textSize="15sp"></TextView>
+
+        <EditText
+            android:id="@+id/Rate"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:inputType="number"
+            android:textSize="15sp">
+
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="86dp"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:text="存入金額"
+            android:textSize="15sp"></TextView>
+
+        <EditText
+            android:id="@+id/et_money"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="請输入金額"
+            android:inputType="number"
+            android:textSize="15sp"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="起始日"
+                android:textSize="15sp"></TextView>
+
+            <EditText
+                android:id="@+id/et_day"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="請輸入日期"
+                android:textSize="15sp"></EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="IRR"
+                android:textSize="15sp"></TextView>
+
+            <EditText
+                android:id="@+id/IRR"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:focusable="false"
+                android:gravity="center"
+                android:hint="請輸入利率"
+                android:inputType="number"
+                android:textSize="15sp"></EditText>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="62dp"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="%"
+                android:textSize="15sp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:ems="15"
+                android:text="總金額"
+                android:textSize="15sp"></TextView>
+
+            <EditText
+                android:id="@+id/et_totally"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:focusable="false"
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="15sp"></EditText>
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="15"
+            android:text="估算台幣價值"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_TWD"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:textSize="15sp">
+
+        </EditText>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:hint="備註(請輸入內容)"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_save"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button2"
+            android:text="保存"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button2"
+            android:text="取消"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

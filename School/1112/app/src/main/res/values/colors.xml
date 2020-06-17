@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#92A69F</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#DDAB8D</color>
+    <color name="linearlayout_onclick">#BDBCBC</color>
+    <color name="circle1">#D08A44</color>
+    <color name="circle2">#90763B</color>
+    <color name="circle3">#424045</color>
+    <color name="circle4">#CFA398</color>
+    <color name="circle5">#C2B1A0</color>
+    <color name="colorTitle">#B46459</color>
+    <color name="colorText">#6D6459</color>
+    <color name="colorButton">#D0CECE</color>
+</resources>
