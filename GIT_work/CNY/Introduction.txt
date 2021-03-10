@@ -1,0 +1,16 @@
+
+中文
+
+網頁連結 : https://promotion.twsamsungcampaign.com/2021-galaxy-cny-promotion/
+工作參與 : html、css、jQuery 製作
+使用工具 : HTML5、SCSS、jQuery、Sublime、prepros
+
+
+
+ENGLISH
+
+Web link : https://promotion.twsamsungcampaign.com/2021-galaxy-cny-promotion/
+Work participation : html、css、jQuery 製作
+use tools : HTML5、SCSS、jQuery、Sublime、prepros
+
+

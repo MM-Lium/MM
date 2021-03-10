@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@include keyframes(aniPlay) {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 100%;
+    }
+}
+
+
+@include keyframes(leftar) {
+    0% {
+        right: 12%;
+    }
+
+    50% {
+        right: 15%;
+    }
+
+    100% {
+        right: 12%;
+    }
+}

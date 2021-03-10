@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@include keyframes(rightar) {
+    0% { 
+      left: 12%;
+    }
+    50% { 
+      left: 15%;
+    }
+    100% { 
+      left: 12%;
+    }
+}
+
+@include keyframes(leftar) {
+    0% { 
+      right: 12%;
+    }
+    50% { 
+      right: 15%;
+    }
+    100% { 
+      right: 12%;
+    }
+}
+

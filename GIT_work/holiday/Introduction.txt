@@ -1,0 +1,16 @@
+
+中文
+
+網頁連結 : https://promotion.twsamsungcampaign.com/2020-galaxy-holiday-promotion/
+工作參與 : html、css、jQuery
+使用工具 : HTML5、SCSS、jQuery、Sublime、prepros
+
+
+
+ENGLISH
+
+Web link : https://promotion.twsamsungcampaign.com/2020-galaxy-holiday-promotion/
+Work participation : html、css、jQuery
+use tools : HTML5、SCSS、jQuery、Sublime、prepros
+
+

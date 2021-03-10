@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@include keyframes(aniPlay) {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@include keyframes(indbtn) {
+    0%{
+        filter: brightness(1);
+        transform: scale(1);
+    }
+    20%{
+        filter: brightness(1.1);
+        transform: scale(1.05);
+    }
+    40%{
+        filter: brightness(1);
+        transform: scale(1);
+    }
+    100%{
+        filter: brightness(1);
+        transform: scale(1);
+    }
+}
+
+@include keyframes(timelineani) {
+    0%{ transform: scale(0); }
+    70%{ transform: scale(1.2);  }
+    100%{ transform: scale(1);  }
+}
+
+@include keyframes(indinfoani) {
+    0%{ transform: translateY(0); }
+    70%{ transform: translateY(5%);  }
+    100%{ transform: translateY(0);  }
+}
